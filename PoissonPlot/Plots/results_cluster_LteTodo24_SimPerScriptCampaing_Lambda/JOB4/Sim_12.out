@@ -1,0 +1,95 @@
+Waf: Entering directory `/home/dgdmacedo/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/dgdmacedo/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (4.582s)
+Flow 1 (1.0.0.2:49154 -> 7.0.0.3:1100) proto UDP
+  Tx Packets: 15031
+  Tx Bytes:   2299743
+  TxOffered:  0.306684 Mbps
+  Rx Bytes:   2298978
+  Throughput:  0.306581 Mbps
+  Mean delay:  15.2151 ms
+  Mean jitter:  1.62676 ms
+  Rx Packets: 15026
+Flow 2 (1.0.0.2:49156 -> 7.0.0.5:1100) proto UDP
+  Tx Packets: 14915
+  Tx Bytes:   2281995
+  TxOffered:  0.304317 Mbps
+  Rx Bytes:   2280771
+  Throughput:  0.304153 Mbps
+  Mean delay:  15.2015 ms
+  Mean jitter:  1.59481 ms
+  Rx Packets: 14907
+Flow 3 (1.0.0.2:49157 -> 7.0.0.6:1100) proto UDP
+  Tx Packets: 14873
+  Tx Bytes:   2275569
+  TxOffered:  0.30346 Mbps
+  Rx Bytes:   2274957
+  Throughput:  0.303378 Mbps
+  Mean delay:  15.1735 ms
+  Mean jitter:  1.58514 ms
+  Rx Packets: 14869
+Flow 4 (1.0.0.2:49153 -> 7.0.0.2:1100) proto UDP
+  Tx Packets: 14998
+  Tx Bytes:   2294694
+  TxOffered:  0.30601 Mbps
+  Rx Bytes:   2293929
+  Throughput:  0.305908 Mbps
+  Mean delay:  15.2073 ms
+  Mean jitter:  1.60108 ms
+  Rx Packets: 14993
+Flow 5 (1.0.0.2:49155 -> 7.0.0.4:1100) proto UDP
+  Tx Packets: 14929
+  Tx Bytes:   2284137
+  TxOffered:  0.304602 Mbps
+  Rx Bytes:   2283678
+  Throughput:  0.304541 Mbps
+  Mean delay:  15.1977 ms
+  Mean jitter:  1.60932 ms
+  Rx Packets: 14926
+
+  Mean flow throughput: 0.304912
+  Mean flow delay: 15.199
+
+Flow: 1
+  t destination port 1100
+  source address 1.0.0.2
+  t source address 1.0.0.2
+  t destination port 1100
+  sink address 7.0.0.2
+  t destination address 7.0.0.3
+
+Flow: 2
+  t destination port 1100
+  source address 1.0.0.2
+  t source address 1.0.0.2
+  t destination port 1100
+  sink address 7.0.0.2
+  t destination address 7.0.0.5
+
+Flow: 3
+  t destination port 1100
+  source address 1.0.0.2
+  t source address 1.0.0.2
+  t destination port 1100
+  sink address 7.0.0.2
+  t destination address 7.0.0.6
+
+Flow: 4
+  t destination port 1100
+  source address 1.0.0.2
+  t source address 1.0.0.2
+  t destination port 1100
+  sink address 7.0.0.2
+  t destination address 7.0.0.2
+
+Flow: 5
+  t destination port 1100
+  source address 1.0.0.2
+  t source address 1.0.0.2
+  t destination port 1100
+  sink address 7.0.0.2
+  t destination address 7.0.0.4
+simulation finished at: Tue Jan  4 23:39:59 2022
+
+Time elapsed: 2.73558e+07 minutes

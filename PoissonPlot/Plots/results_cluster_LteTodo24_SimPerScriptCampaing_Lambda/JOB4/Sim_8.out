@@ -1,0 +1,27 @@
+Waf: Entering directory `/home/dgdmacedo/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/dgdmacedo/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (4.755s)
+Flow 1 (1.0.0.2:49153 -> 7.0.0.2:1100) proto UDP
+  Tx Packets: 303
+  Tx Bytes:   46359
+  TxOffered:  0.00618223 Mbps
+  Rx Bytes:   46359
+  Throughput:  0.00618223 Mbps
+  Mean delay:  13.5095 ms
+  Mean jitter:  0.3095 ms
+  Rx Packets: 303
+
+  Mean flow throughput: 0.00618223
+  Mean flow delay: 13.5095
+
+Flow: 1
+  t destination port 1100
+  source address 1.0.0.2
+  t source address 1.0.0.2
+  t destination port 1100
+  sink address 7.0.0.2
+  t destination address 7.0.0.2
+simulation finished at: Tue Jan  4 23:19:35 2022
+
+Time elapsed: 2.73558e+07 minutes
